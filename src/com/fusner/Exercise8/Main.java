@@ -104,12 +104,11 @@ class BusinessContact extends  Contact
         return BusinessContact.businessTotal;
     }
 
-    //endregion
-
     public void setPhone(String phone)
     {
         this.phone = phone;
     }
+    //endregion
 
     public BusinessContact(String name, String email, String phone)
     {
